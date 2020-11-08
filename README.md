@@ -9,4 +9,4 @@ My task is to create the necessary RabbitMQ messaging exchanges and queues for s
 
 ### Explicative diagram of the architecture
 
-<img src="architecture.png" width="200" height="400" />
+<img src="architecture.png" />
