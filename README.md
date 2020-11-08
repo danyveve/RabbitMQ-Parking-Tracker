@@ -17,8 +17,8 @@ My task is to create the necessary RabbitMQ messaging exchanges and queues for s
 
 The scripts from the "scripts" folder can be used for testing the application.
 
-1. Start a worker with python3 run_worker.py --id "<worker-id>" --queue "<worker-id>_queue" -w "1"
-2. Start a customer app with python3 run_customer_app.py -c "<customer-id>"
-3. Generate ParkingEvents through python3 produce_parking_event.py -e "entry" -c "<customer-id>" -t 0 and python3 produce_parking_event.py -e "exit" -c "<customer-id>" -t <num_minutes>
+1. Start a worker with python3 run_worker.py --id "<worker_id>" --queue "<worker_id>_queue" -w "1"
+2. Start a customer app with python3 run_customer_app.py -c "<customer_id>"
+3. Generate ParkingEvents through python3 produce_parking_event.py -e "entry" -c "<customer_id>" -t 0 and python3 produce_parking_event.py -e "exit" -c "<customer_id>" -t <num_minutes>
 
 !Note that the testing scripts were not written by me; they were provided as part of the assignment and they were written by the teacher of the course.
