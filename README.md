@@ -8,3 +8,5 @@ The assignment is to build a smart parking application. The scenario comprises a
 My task is to create the necessary RabbitMQ messaging exchanges and queues for such a scenario as specified in the Requirements below.
 
 ### Explicative diagram of the architecture
+
+<img src="architecture.png" width="200" height="400" />
