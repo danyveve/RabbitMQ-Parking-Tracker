@@ -21,4 +21,4 @@ The scripts from the "scripts" folder can be used for testing the application.
 2. Start a customer app with python3 run_customer_app.py -c "<customer_id>"
 3. Generate ParkingEvents through python3 produce_parking_event.py -e "entry" -c "<customer_id>" -t 0 and python3 produce_parking_event.py -e "exit" -c "<customer_id>" -t <num_minutes>
 
-!Note that the testing scripts were not written by me; they were provided as part of the assignment and they were written by the teacher of the course.
+**!Note that the testing scripts were not written by me; they were provided as part of the assignment and they were written by the teacher of the course.**
